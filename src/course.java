@@ -49,8 +49,6 @@ public class course {
         return max;
     }
 
-    // Course summary
-    @Override
     public String toString() {
         return "course{" +
                 "courseName='" + courseName + '\'' +
