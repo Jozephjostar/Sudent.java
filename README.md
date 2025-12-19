@@ -20,6 +20,6 @@ student with the highest number of credits.
 ## How to Run
 Compile and run the program using the following commands:
 
-```bash
+
 javac *.java
 java Main
