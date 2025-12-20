@@ -23,4 +23,4 @@ Compile and run the program using the following commands:
 javac *.java
 java Main
 
-![screenshot output](https://docs.google.com/document/d/1BOWH_Wqa-PHbS6hB4gbVJdBN3f7DrUgXKpuBQ6BHL18/edit?tab=t.0)
+![screenshot output](docs)
