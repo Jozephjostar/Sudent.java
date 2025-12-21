@@ -1,9 +1,9 @@
 public class course {
 
 
-    private String courseName;      // name of the course
-    private String instructor;      // instructor name
-    private Student[] students;     // array of Student objects
+    private String courseName;
+    private String instructor;
+    private Student[] students;
 
 
     public course(String courseName, String instructor, int size) {

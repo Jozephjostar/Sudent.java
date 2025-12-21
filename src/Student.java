@@ -1,11 +1,11 @@
 public class Student {
 
 
-    private String name;      // full name
-    private String id;        // student ID
-    private String major;     // academic program
-    private double gpa;       // current GPA
-    private int credits;      // total earned credits
+    private String name;
+    private String id;
+    private String major;
+    private double gpa;
+    private int credits;
 
 
     public Student(String name, String id, String major) {
