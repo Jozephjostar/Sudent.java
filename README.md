@@ -1,26 +1,66 @@
-# Student Management System
+# Student Management System (Assignment 1)
 
-## Project Description
-This project is a simple Java program that demonstrates object-oriented
-programming concepts. It manages students and courses using classes,
-objects, and arrays.
+## About the Project
+This project is a simple Java program created for Assignment 1.
+It demonstrates basic Object-Oriented Programming concepts such as classes,
+objects, encapsulation, and arrays.
 
-## Classes
+The system works with students and courses and performs simple calculations
+like average GPA and total credits.
+
+---
+
+## Classes Used
 
 ### Student
-The Student class stores information about a student, including name,
-ID, major, GPA, and earned credits. It provides methods to update GPA,
-add credits, and check if a student is an honors student.
+The Student class stores information about a student.
+
+Fields:
+- name
+- id
+- major
+- gpa
+- credits
+
+Main functions:
+- update GPA
+- add credits
+- check if the student is an honors student
+- display student information
+
+---
 
 ### Course
-The Course class represents a course and contains an array of Student
-objects. It can calculate the average GPA of students and find the
-student with the highest number of credits.
+The Course class stores information about a course and its students.
 
-## How to Run
-Compile and run the program using the following commands:
+It contains:
+- course name
+- instructor name
+- an array of students
 
+Main functions:
+- add students to the course
+- calculate average GPA
+- find the student with the highest credits
+
+---
+
+## Main Program
+The Main class runs the program.
+
+It:
+- creates several students
+- updates their GPA and credits
+- stores them in an array
+- creates a course and adds students
+- prints results to the console
+
+---
+
+## How to Run the Program
+
+Compile and run from the `src` folder:
+
+```bash
 javac *.java
 java Main
-
-![screenshot output](docs)
