@@ -1,25 +1,25 @@
 public class course {
 
-    // Private fields
+
     private String courseName;      // name of the course
     private String instructor;      // instructor name
     private Student[] students;     // array of Student objects
 
-    // Constructor
+
     public course(String courseName, String instructor, int size) {
         this.courseName = courseName;
         this.instructor = instructor;
         this.students = new Student[size];
     }
 
-    // Inserts student into array
+
     public void addStudent(Student s, int index) {
         if (index >= 0 && index < students.length) {
             students[index] = s;
         }
     }
 
-    // Computes average GPA
+
     public double courseAverageGPA() {
         double sum = 0.0;
         int count = 0;

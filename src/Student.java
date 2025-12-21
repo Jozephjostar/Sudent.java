@@ -1,13 +1,13 @@
 public class Student {
 
-    // Private fields
+
     private String name;      // full name
     private String id;        // student ID
     private String major;     // academic program
     private double gpa;       // current GPA
     private int credits;      // total earned credits
 
-    // Constructor
+
     public Student(String name, String id, String major) {
         this.name = name;
         this.id = id;
@@ -16,7 +16,7 @@ public class Student {
         this.credits = 0;
     }
 
-    // Getters and setters
+
     public String getName() {
         return name;
     }
