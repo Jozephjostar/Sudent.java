@@ -34,7 +34,7 @@ public class course {
         return count == 0 ? 0.0 : sum / count;
     }
 
-    // Returns student with highest credits
+
     public Student highestCreditStudent() {
         Student max = null;
 
